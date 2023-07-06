@@ -44,6 +44,10 @@ menu > a:hover {
     transition: 0.3s;
 }
 
+menu > a#login {
+    margin-left: 943px;
+}
+
 main {
     text-align: center;
     /*background-color: lightgray;*/
