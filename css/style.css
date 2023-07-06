@@ -45,7 +45,7 @@ menu > a:hover {
 }
 
 menu > a#login {
-    margin-left: 943px;
+    margin-left: 70% /*943px*/;
 }
 
 main {
