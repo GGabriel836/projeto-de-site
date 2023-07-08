@@ -45,7 +45,11 @@ menu > a:hover {
 }
 
 menu > a#login {
-    margin-left: 70% /*943px*/;
+    margin-left: 60% /*943px*/;
+}
+
+menu > a#cadastro {
+    margin-left: 5px;
 }
 
 main {
