@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 143, 168);
+}
+
+#voltar {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(228, 15, 15);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#voltar:hover {
+    background-color: rgb(228, 15, 15);
+    color: white;
+}
+
+div {
+    display: block;
+    height: 550px;
+    width: 600px;
+    position: absolute;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(197, 197, 197);
+    border-radius: 20px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+div > h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgba(0, 143, 168);
+}
+
+form > label {
+    color: rgba(0, 143, 168);
+    font-weight: bolder;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 160px;
+}
+
+form > input.caixatexto {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 288px;
+    padding-left: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+}
+
+form > a {
+    display: inline-block;
+    margin: auto;
+    margin-left: 220px;
+    margin-top: 5px;    
+    margin-bottom: 20px;    
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(0, 143, 168);
+}
+
+form > a:hover {
+    text-decoration: underline;
+}
+
+form > input#cadastrar {
+    display: block;
+    height: 50px;
+    width: 300px;
+    margin: auto;   
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: rgba(0, 143, 168);
+    border-radius: 20px;
+    cursor: pointer;
+}
